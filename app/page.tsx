@@ -1,30 +1,34 @@
 // app/page.tsx
 
+import { UploadButton } from '@/components/shared/UploadButton';
+
 export default function Home() {
   return (
-    <section className='container grid items-center gap-6 pb-8 pt-6 md:py-10'>
-      <div className='flex max-w-[980px] flex-col items-start gap-2'>
-        <h1 className='text-3xl font-extrabold leading-tight tracking-tighter md:text-5xl lg:text-6xl'>
-          Community Uploads
-        </h1>
-        <p className='max-w-[700px] text-lg text-muted-foreground sm:text-xl'>
-          Upload an image to see the AI moderation in action. All uploads are
-          scanned by AWS Rekognition and WebPurify.
-        </p>
+    <section className='container space-y-10 pb-16 pt-10'>
+      {/* Header + upload action */}
+      <div className='flex flex-col gap-6 md:flex-row md:items-center md:justify-between'>
+        <div className='max-w-xl space-y-3'>
+          <h1 className='text-3xl font-extrabold leading-tight tracking-tight md:text-5xl lg:text-6xl'>
+            Community Uploads
+          </h1>
+          <p className='text-base text-muted-foreground sm:text-lg'>
+            Upload an image to see the AI moderation in action. All uploads are
+            scanned by AWS Rekognition and WebPurify.
+          </p>
+        </div>
+
+        <div className='flex w-full justify-start md:w-auto md:justify-end'>
+          <UploadButton />
+        </div>
       </div>
 
-      {/* Upload Button will go here */}
-      <div className='mt-8 w-full max-w-[700px]'>
-        <p className='text-center text-muted-foreground'>
-          [Upload Component Placeholder]
-        </p>
-      </div>
-
-      {/* Image Gallery will go here */}
-      <div className='mt-12'>
-        <p className='text-center text-muted-foreground'>
-          [Image Gallery Placeholder]
-        </p>
+      {/* Gallery area */}
+      <div className='rounded-lg border border-dashed bg-muted/40 p-6 sm:p-8'>
+        <div className='flex h-48 items-center justify-center text-center'>
+          <p className='text-sm text-muted-foreground'>
+            Image gallery will appear here after you upload.
+          </p>
+        </div>
       </div>
     </section>
   );

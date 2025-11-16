@@ -27,11 +27,13 @@ export default function RootLayout({
           inter.variable
         )}
       >
-        {/* We use flex-col and min-h-screen to make the footer sticky */}
         <div className='relative flex min-h-screen flex-col'>
           <Navbar />
-          {/* This 'flex-1' makes the main content area grow and push the footer down */}
-          <main className='flex-1'>{children}</main>
+          <main className='flex-1'>
+            <div className='container mx-auto flex flex-col gap-8 px-4 py-10 md:gap-10 md:py-14'>
+              {children}
+            </div>
+          </main>
           <Footer />
         </div>
       </body>
