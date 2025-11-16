@@ -1,8 +1,3 @@
-Here is a clean, simple README.
-Short sentences, clear language, no jargon, fits your style rules.
-
----
-
 # Safe Community Feed
 
 AI powered content moderation with Next.js and Cloudinary.
