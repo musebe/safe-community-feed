@@ -6,6 +6,8 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
+import { Toaster } from '@/components/ui/sonner';
+import { Suspense } from 'react';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
@@ -34,8 +36,13 @@ export default function RootLayout({
               {children}
             </div>
           </main>
-          <Footer />
+
+          <Suspense fallback={null}>
+            <Footer />
+          </Suspense>
         </div>
+
+        <Toaster richColors />
       </body>
     </html>
   );

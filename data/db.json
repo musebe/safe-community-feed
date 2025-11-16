@@ -1,0 +1,82 @@
+[
+  {
+    "id": "safe-community-app/nfefjfdb2xn9vloutyzv",
+    "url": "https://res.cloudinary.com/demo-article-projects/image/upload/v1763314174/safe-community-app/nfefjfdb2xn9vloutyzv.webp",
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "moderationStatus": "approved",
+    "aws_rekognition_status": "approved",
+    "webpurify_status": "not_used"
+  },
+  {
+    "id": "safe-community-app/gzot8oqwz6pluq142vhb",
+    "url": "https://res.cloudinary.com/demo-article-projects/image/upload/v1763311290/safe-community-app/gzot8oqwz6pluq142vhb.jpg",
+    "width": 360,
+    "height": 640,
+    "format": "jpg",
+    "moderationStatus": "rejected",
+    "aws_rekognition_status": "rejected",
+    "webpurify_status": "not_used"
+  },
+  {
+    "id": "safe-community-app/pg9qh7qljqgazmu7zu4a",
+    "url": "https://res.cloudinary.com/demo-article-projects/image/upload/v1763311208/safe-community-app/pg9qh7qljqgazmu7zu4a.jpg",
+    "width": 2000,
+    "height": 1100,
+    "format": "jpg",
+    "moderationStatus": "approved",
+    "aws_rekognition_status": "approved",
+    "webpurify_status": "approved"
+  },
+  {
+    "id": "safe-community-app/jwnwvf26boq5z4tmdzkv",
+    "url": "https://res.cloudinary.com/demo-article-projects/image/upload/v1763311142/safe-community-app/jwnwvf26boq5z4tmdzkv.jpg",
+    "width": 2000,
+    "height": 1100,
+    "format": "jpg",
+    "moderationStatus": "approved",
+    "aws_rekognition_status": "approved",
+    "webpurify_status": "not_used"
+  },
+  {
+    "id": "safe-community-app/t2kaovlc19lgflxesehs",
+    "url": "https://res.cloudinary.com/demo-article-projects/image/upload/v1763311061/safe-community-app/t2kaovlc19lgflxesehs.jpg",
+    "width": 1200,
+    "height": 627,
+    "format": "jpg",
+    "moderationStatus": "approved",
+    "aws_rekognition_status": "not_used",
+    "webpurify_status": "approved"
+  },
+  {
+    "id": "safe-community-app/d49sqdute6606esgdgbz",
+    "url": "https://res.cloudinary.com/demo-article-projects/image/upload/v1763310701/safe-community-app/d49sqdute6606esgdgbz.jpg",
+    "width": 2000,
+    "height": 1100,
+    "format": "jpg",
+    "moderationStatus": "approved",
+    "aws_rekognition_status": "approved",
+    "webpurify_status": "not_used"
+  },
+  {
+    "id": "safe-community-app/rdpqdggwnzd2daituvhf",
+    "url": "https://res.cloudinary.com/demo-article-projects/image/upload/v1763310654/safe-community-app/rdpqdggwnzd2daituvhf.jpg",
+    "width": 2000,
+    "height": 1100,
+    "format": "jpg",
+    "moderationStatus": "approved",
+    "aws_rekognition_status": "approved",
+    "webpurify_status": "not_used"
+  },
+  {
+    "id": "safe-community-app/swxiaurqfqxokk7nebnf",
+    "url": "https://res.cloudinary.com/demo-article-projects/image/upload/v1763310617/safe-community-app/swxiaurqfqxokk7nebnf.jpg",
+    "width": 2000,
+    "height": 1100,
+    "format": "jpg",
+    "moderationStatus": "approved",
+    "aws_rekognition_status": "approved",
+    "webpurify_status": "not_used"
+  }
+]
